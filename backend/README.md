@@ -9,4 +9,5 @@ Para instalar as dependências usei yarn
 - Axios
 - MongoDB
 - Mongoose
+- Nodemon
 
