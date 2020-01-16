@@ -55,7 +55,13 @@ function App() {
 
                         <div className="input-block">
                             <label htmlFor="longitude">Longitude</label>
-                            <input type="number" name="longitude" id="longitude" required value={ longitude }/>
+                            <input 
+                                type="number" 
+                                name="longitude" 
+                                id="longitude" 
+                                required value={ longitude }
+                                onChange={ e=> setLongitude(e.target.value)}
+                            />
                         </div>
                     </div>
 
