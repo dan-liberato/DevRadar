@@ -3,6 +3,7 @@ import React from 'react';
 import './style.css';
 
 function DevItem({ dev }) {
+    console.log(dev.github_username);
     return (
         <li key={dev._id} className="dev-item">
             <header>
