@@ -1,4 +1,4 @@
-# DevRadar - Semana OmniStack 10 [RocketSeat]
+# DevRadar - Semana OmniStack 10
 
-## DevRadar
-Aplicação para encontrar desenvolvedores por skills e geolocalização
+Aplicação para encontrar desenvolvedores por geolocalização e skills,
+desenvolvida durante a Semana OmniStack 10.0 da [RocketSeat](https://rocketseat.com.br/)
