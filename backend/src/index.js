@@ -1,21 +1,24 @@
-// Import Express
+// Import's
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const http = require('http');
 
 const routes = require('./routes');
-const { setupWebsocket } = require('./websocket');
+const { setupWebSocket } = require('./websocket');
 
 const app = express();
 const server = http.Server(app);
 
-setupWebsocket(server);
+setupWebSocket(server);
 
 mongoose.connect('mongodb+srv://devradar:dr1928pkm@cluster0-cvukr.mongodb.net/devradar?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
+    useCreateIndex: true
 });
+
+// mongoose.set('useCreateIndex', true);
 
 app.use(cors());
 app.use(express.json());
