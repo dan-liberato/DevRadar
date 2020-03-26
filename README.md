@@ -1,14 +1,15 @@
 # DevRadar - Semana OmniStack 10
 
+## Projeto
 O DevRadar é um projeto que visa conectar desenvolvedores próximos e que trabalham com as mesmas tecnologias.
 
-# Tecnologias
+## Tecnologias
 O projeto foi desenvolvido com:
 
-[Node](https://nodejs.org/)
-[React](https://reactjs.org/)
-[React Native](https://reactnative.dev/)
-[Expo](https://expo.io/)
+[Node](https://nodejs.org/)  
+[React](https://reactjs.org/)  
+[React Native](https://reactnative.dev/)  
+[Expo](https://expo.io/)  
 
 
 
